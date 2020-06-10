@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.horizontal {
+    display: flex;    
+    justify-content: space-around;
+}
+
+.correct-answer {
+    background-color: green;
+}
+
+.orange {
+    color:orange;
+}
+
+.title {
+    margin-right: 15px;
+}
+
+.title-center {
+    display:flex;justify-content: center;
+}
+
+.mainDiv{
+    background-color: whitesmoke;
+    border: 1px solid #bbb;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 10px;   
+}
+
+.content-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.main-nav{
+background-color: darkblue;
+margin: 0px 0px 50px 0px;
+}
+
+.main-nav >div{
+color:white;
+}

@@ -1,0 +1,38 @@
+.possible-answers {
+    display: flex;
+    flex-direction: column;
+}
+
+.answers-layout {
+    display: flex;    
+}
+
+.question {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.check-answer {
+    margin-left: 5px;
+}
+
+.mainDiv{
+    background-color: whitesmoke;
+    border: 1px solid #bbb;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 10px;   
+}
+
+.required {
+    color: red;
+}
+
+.answer {
+    width:500px;
+}
+
+.second-div {
+    margin-top: 15px;
+}

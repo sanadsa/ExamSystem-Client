@@ -1,0 +1,22 @@
+<div style="display:flex;justify-content:space-around;">
+  <div>
+    {{test.ID}}
+  </div>
+  <div>
+    {{test.TestName}}
+  </div>
+  <div>
+      {{test.LastUpdate | date:'yyyy-MM-dd'}}
+  </div>
+  <div>
+      {{test.NumOfQuestions}}
+  </div>
+  <div>
+    <button class="btn btn-outline-secondary mr-2" [routerLink]="['/testForm',{testId:test.ID,field:test.Field}]"  >
+      Edit
+    </button>
+  </div>
+  <div style="color:green">
+    Active
+  </div>
+</div>

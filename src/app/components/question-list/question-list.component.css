@@ -1,0 +1,25 @@
+td,tr{
+    border: 1px solid gray;
+}
+
+/* table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+} */
+
+.head {
+    background-color: orange;
+}  
+
+.space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDiv{
+    background-color: whitesmoke;
+    border: 1px solid #bbb;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    padding: 10px;   
+}
