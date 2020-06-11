@@ -50,5 +50,5 @@
     "tslint": "~5.11.0",
     "typescript": "~3.1.6"
   },
-  "homepage": "https://sanadsa.github.io/ExamSystem-Client/login"
+  "homepage": "https://sanadsa.github.io/login"
 }
